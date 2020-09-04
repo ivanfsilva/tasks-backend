@@ -3,6 +3,7 @@ package br.ce.wcaquino.taskbackend.controller;
 import java.time.LocalDate;
 
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 import org.mockito.InjectMocks;
 import org.mockito.Mock;
@@ -21,6 +22,7 @@ public class TaskControllerTest {
 	@InjectMocks
 	private TaskController controller;
 	
+	@Before
 	public void setup() {
 		MockitoAnnotations.initMocks(this);
 	}
